@@ -11,8 +11,7 @@ export default function Contact() {
         <p className="mb-8 text-lg text-gray-700">
           Cuéntame un poco de ti y agendemos una llamada gratuita para conocernos.
         </p>
-        <form className="grid gap-6 text-left" name="contacto" method="POST" data-netlify="true">
-          <input type="hidden" name="form-name" value="contacto" />
+        <form className="grid gap-6 text-left" name="contacto" method="POST">
           <input
             type="text"
             name="nombre"
