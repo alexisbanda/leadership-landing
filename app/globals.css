@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Puedes añadir estilos personalizados aquí si deseas */
+html,
+body {
+  @apply bg-white text-gray-900 font-sans;
+}
+/* globals.css */
+/* ✅ FUNCIONA */
+h1, h2, h3 {
+  @apply font-playfair text-[#333333];
+}
+
